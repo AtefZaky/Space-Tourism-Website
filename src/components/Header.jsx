@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-import { logoIcon, closeIcon, hamburgerIcon } from "../../assets/icons";
+import { logoIcon, closeIcon, hamburgerIcon } from "../../public/assets/icons";
 import { nav } from "../data.json";
 import { Link, useLocation } from "react-router-dom";
 
