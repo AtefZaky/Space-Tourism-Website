@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .nav-background {
+    background: rgba(255, 255, 255, 0.04); 
+    backdrop-filter: blur(81.55px);
+  }
+  /* styles for the line before the nav in desktop devices */
+  .before-line{
+    @apply before:h-[1px] before:z-10 before:absolute before:w-[550px] before:bg-white before:opacity-25 before:top-12 before:-left-[510px] before:hidden before:xl:block 
+  }
+  /* styles for the line that appear under the menu link when hover */
+  .li-line-hover{
+    @apply before:w-0 before:absolute before:h-[2.5px] before:-bottom-5 lg:before:-bottom-7 before:bg-white before:transition-all before:duration-300 before:opacity-50
+  }
+  /* styles for the line that appear after the menu link when hover in mobile */
+  .li-line-mob-hover{
+    @apply before:h-0 before:absolute before:w-[2.5px] before:right-0 before:bg-white before:transition-all before:duration-300 before:opacity-50
+  }
+  .custom-container{
+    @apply container m-auto px-6 py-8 sm:px-8 lg:py-12 lg:px-16 2xl:max-w-[1280px]
+  }
+  /* Home button */
+  .custom-btn{
+    @apply bg-white w-[150px] sm:w-[242px] xl:w-[274px] h-[150px] sm:h-[242px] xl:h-[274px] rounded-full flex justify-center lg:self-end mt-24 mb-4 md:mt-32 lg:mt-0 md:mb-14 lg:mb-0 cursor-pointer 
+            relative z-0 before:-z-10 xl:before:w-[450px] before:w-[300px] lg:before:w-[350px] sm:before:w-[400px] before:h-[300px] lg:before:h-[350px] xl:before:h-[450px] sm:before:h-[400px] before:bg-white before:absolute before:rounded-full before:opacity-10 before:top-[-75px] lg:before:top-[-54px] xl:before:top-[-88px] sm:before:top-[-79px] before:scale-0
+            hover:before:scale-75 before:duration-300 sm:hover:before:scale-100
+  }
+  .slider-hover-line{
+    @apply relative cursor-pointer before:w-0 before:-bottom-2 before:absolute before:h-[3px] before:bg-white before:duration-300 before:opacity-50 hover:before:w-full
+  }
+}
+
