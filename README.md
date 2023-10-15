@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [[https://AtefZaky.github.io/Space-Tourism-Website](https://space-tourism-website-mauve-nine.vercel.app/)]
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/space-tourism-website-with-react-and-tailwind-HOXkqmmbxB)
+- Live Site URL: [See it live](https://space-tourism-website-mauve-nine.vercel.app/)]
 
 ### Built with
 
