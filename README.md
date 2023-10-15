@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/space-tourism-website-with-react-and-tailwind-HOXkqmmbxB)
-- Live Site URL: [See it live](https://space-tourism-website-mauve-nine.vercel.app/)]
+- Live Site URL: [See it live](https://space-tourism-website-mauve-nine.vercel.app/)
 
 ### Built with
 
